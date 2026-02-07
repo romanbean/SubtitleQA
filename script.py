@@ -1,7 +1,7 @@
 import difflib
 import pandas as pd
 import streamlit as st
-import chardet  # pip install chardet
+import chardet
 
 # ===== Extract Spoken Lines with Encoding Detection =====
 def extract_subtitle_text(file):
